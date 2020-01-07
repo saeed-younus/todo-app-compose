@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_text_listing.xml.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\layout\\activity_edit_text_listing.xml"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_fab.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\drawable-mdpi\\ic_fab.png"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_fab.xml.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\drawable-anydpi\\ic_fab.xml"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_fab.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_fab.png"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_add.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\drawable-v24\\ic_add.png"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_image.jpg.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\drawable-v24\\image.jpg"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_fab.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\drawable-xhdpi\\ic_fab.png"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_fab.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\drawable-xxhdpi\\ic_fab.png"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\android_projects\\ComposeApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\android_projects\\ComposeApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    }
+]

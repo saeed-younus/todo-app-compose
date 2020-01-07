@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.composeapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:5:5-29:19
+12        android:allowBackup="true"
+12-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\ec4df20c44042760ddced03ead47e8bd\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:11:9-40
+22        <activity android:name="com.example.composeapplication.TodoListWithViewModelActivity" >
+22-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:12:9-18:20
+22-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:12:19-64
+23            <intent-filter>
+23-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:13:13-17:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:14:17-69
+24-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:14:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:16:17-77
+26-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:16:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity android:name="com.example.composeapplication.EditTextListingActivity" >
+29-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:19:9-25:20
+29-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:19:19-58
+30
+31            <!--
+32            <intent-filter>
+33                <action android:name="android.intent.action.MAIN" />
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+36            </intent-filter>
+37            -->
+38        </activity>
+39        <activity
+39-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:26:9-28:57
+40            android:name="com.example.composeapplication.MainActivity"
+40-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:27:13-41
+41            android:label="@string/app_name" />
+41-->C:\android_projects\ComposeApplication\app\src\main\AndroidManifest.xml:28:13-45
+42    </application>
+43
+44</manifest>
