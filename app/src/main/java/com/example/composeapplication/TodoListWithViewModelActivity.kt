@@ -41,7 +41,10 @@ class TodoListWithViewModelActivity : AppCompatActivity(), LifecycleOwner {
         val textFieldValue = +state { "" }
 
         Stack {
-            Row(mainAxisAlignment = MainAxisAlignment.SpaceBetween) {
+            Row(
+                mainAxisAlignment = MainAxisAlignment.SpaceBetween,
+                crossAxisSize = LayoutSize.Expand
+            ) {
                 Padding(padding = 8.dp) {
                     Surface(border = Border(color = Color.Black, width = 1.dp)) {
                         Container(
@@ -89,46 +92,53 @@ class TodoListWithViewModelActivity : AppCompatActivity(), LifecycleOwner {
                     })
                 }
             }
-            Padding(padding = EdgeInsets(top = 60.dp)) {
-                VerticalScroller {
-                    Column(
-                        crossAxisSize = LayoutSize.Expand
-                    ) {
-                        val list = viewModel.list
-                        list.forEachIndexed { index, item ->
-                            Row(
-                                modifier = Spacing(16.dp),
-                                mainAxisSize = LayoutSize.Expand,
-                                mainAxisAlignment = MainAxisAlignment.SpaceBetween
-                            ) {
-                                Container(width = 220.dp, alignment = Alignment.TopLeft) {
-                                    Text(
-                                        text = item.text,
-                                        style = TextStyle(
-                                            fontSize = 20.sp,
-                                            fontWeight = FontWeight.W600
-                                        )
-                                    )
-                                }
+            Container(
+                expanded = true,
+                alignment = Alignment.TopLeft,
+                padding = EdgeInsets(top = 60.dp)
+            ) {
+                Surface(color = Color.LightGray) {
+                    VerticalScroller {
+                        Column(
+                            crossAxisSize = LayoutSize.Expand,
+                            mainAxisSize = LayoutSize.Expand
+                        ) {
+                            val list = viewModel.list
+                            list.forEachIndexed { index, item ->
                                 Row(
-                                    mainAxisAlignment = MainAxisAlignment.End
+                                    modifier = Spacing(16.dp),
+                                    mainAxisSize = LayoutSize.Expand,
+                                    mainAxisAlignment = MainAxisAlignment.SpaceBetween
                                 ) {
-                                    Button(text = "Edit", style = TextButtonStyle(), onClick = {
-                                        editItem.value = item
-                                        textFieldValue.value = item.text
-                                    })
-                                    Button(
-                                        text = "Del",
-                                        style = TextButtonStyle(contentColor = Color.Red),
-                                        onClick = {
-                                            viewModel.removeItem(item)
-                                        }
-                                    )
+                                    Container(width = 220.dp, alignment = Alignment.TopLeft) {
+                                        Text(
+                                            text = item.text,
+                                            style = TextStyle(
+                                                fontSize = 20.sp,
+                                                fontWeight = FontWeight.W600
+                                            )
+                                        )
+                                    }
+                                    Row(
+                                        mainAxisAlignment = MainAxisAlignment.End
+                                    ) {
+                                        Button(text = "Edit", style = TextButtonStyle(), onClick = {
+                                            editItem.value = item
+                                            textFieldValue.value = item.text
+                                        })
+                                        Button(
+                                            text = "Del",
+                                            style = TextButtonStyle(contentColor = Color.Red),
+                                            onClick = {
+                                                viewModel.removeItem(item)
+                                            }
+                                        )
+                                    }
                                 }
-                            }
-                            if (list.size - 1 != index) {
-                                Surface(color = Color.Black) {
-                                    Container(expanded = true, height = 1.dp) {}
+                                if (list.size - 1 != index) {
+                                    Surface(color = Color.Black) {
+                                        Container(expanded = true, height = 1.dp) {}
+                                    }
                                 }
                             }
                         }
@@ -137,5 +147,4 @@ class TodoListWithViewModelActivity : AppCompatActivity(), LifecycleOwner {
             }
         }
     }
-
 }
